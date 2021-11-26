@@ -7,14 +7,14 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <>
+    <div className="App">
       <NavBar />
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
       </Switch>
-    </>
+    </div>
   );
 }
 
